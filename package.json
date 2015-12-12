@@ -1,0 +1,32 @@
+{
+  "name": "fetch-data",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Lim Yuan Qing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yuanqing/fetch-data.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "component",
+    "data",
+    "decorator",
+    "fetch",
+    "isomorphic",
+    "react",
+    "react-router",
+    "redux",
+    "router",
+    "universal"
+  ],
+  "dependencies": {
+    "hoist-non-react-statics": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
