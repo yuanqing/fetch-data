@@ -1,4 +1,4 @@
-import hoistStatics from 'hoist-non-react-statics';
+import hoistNonReactStatics from 'hoist-non-react-statics';
 import React, { Component } from 'react';
 
 export default function fetchData(callback) {
@@ -9,7 +9,7 @@ export default function fetchData(callback) {
       }
     }
     FetchData.fetchData = callback;
-    return hoistStatics(FetchData, WrappedComponent);
+    return hoistNonReactStatics(FetchData, WrappedComponent);
   };
 }
 
